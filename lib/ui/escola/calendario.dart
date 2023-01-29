@@ -19,7 +19,7 @@ class Calendario extends StatelessWidget {
         },
         onPageStarted: (String url) {},
         onPageFinished: (String url) {
-          if (url.contains(urlTCE)) {
+          if (url.contains('www.tce.rn.gov.br/EscolaContas/')) {
             webViewController.runJavaScript(
                 "var elem = document.getElementsByClassName('det-new-redes-socias')[0]; elem.parentNode.removeChild(elem);");
             webViewController.runJavaScript(
