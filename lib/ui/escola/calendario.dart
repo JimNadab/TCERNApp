@@ -35,6 +35,21 @@ class Calendario extends StatelessWidget {
                 "document.getElementsByClassName('2 redesociaisright')[0].style.display='none';");
             webViewController.runJavaScript(
                 "document.getElementsByClassName('col-md-3')[0].style.display='none';");
+
+            if (url.contains('PaginaDetalheCurso')) {
+              webViewController.runJavaScript(
+                  "document.getElementById('blocoInternas').style.width='auto';");
+              webViewController.runJavaScript(
+                  "document.getElementById('blocoInternas').style['margin-left']='0px';");
+              webViewController.runJavaScript(
+                  "document.getElementsByClassName('conteudoSubinterna')[0].style.width='auto';");
+              webViewController.runJavaScript(
+                  "document.getElementsByClassName('row col-md-11 d-flex')[0].style.width='auto';");
+              webViewController.runJavaScript(
+                  "document.getElementById('collapseProgramacao').getElementsByTagName('table')[1].width='auto';");
+              webViewController.runJavaScript(
+                  "document.getElementById('collapseProgramacao').getElementsByTagName('table')[0].width='auto';");
+            }
           }
         },
         onWebResourceError: (WebResourceError error) {},
