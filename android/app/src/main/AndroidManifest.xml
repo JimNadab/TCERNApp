@@ -2,6 +2,7 @@
     package="com.example.f_tcernapp">
    <application
         android:label="f_tcernapp"
+        android:usesCleartextTraffic="true"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
