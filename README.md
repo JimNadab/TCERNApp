@@ -1,6 +1,6 @@
 # Aplicativo Móvel do Tribunal de Contas do Rio Grande do Norte - TCE.
 
-## Projeto desenvolvido pelos residentes da disciplina de Programação para Dispositivos Móveis - IMD/UFRN, então ministrada pelo Dr. Itamir de Morais Barroca Filho.
+## Projeto desenvolvido pelos residentes da disciplina Programação para Dispositivos Móveis - IMD/UFRN, ministrada pelo Dr. Itamir de Morais Barroca Filho.
 
 Desenvolvido com Flutter. Versão beta.
 
