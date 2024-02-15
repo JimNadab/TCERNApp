@@ -2,6 +2,8 @@
 
 ## Projeto desenvolvido pelos residentes da disciplina Programação para Dispositivos Móveis - IMD/UFRN, ministrada pelo Dr. Itamir de Morais Barroca Filho.
 
+## Projeto foi abraçado pelo Tribunal e será continudado por equipe interna.
+
 Desenvolvido com Flutter. Versão beta.
 
 
